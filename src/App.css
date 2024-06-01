@@ -1,0 +1,66 @@
+/* src/App.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #58ac74; 
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  text-align: center;
+  background-color: rgb(79, 122, 68);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(188, 211, 85, 0.1);
+  max-width: 800px; 
+  width: 100%;
+  margin: 20px; /* Отступы вокруг контейнера */
+}
+
+#city-select-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#city-select {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  color: #e7ecea;
+  background-color: rgb(35, 94, 49);
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  height: 300px; 
+  object-fit: cover; 
+  margin: 20px 0;
+}
+
+h2 {
+  color: #042e15;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 1.2em;
+  color: #033607;
+  margin: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+li {
+  margin-bottom: 5px;
+}
